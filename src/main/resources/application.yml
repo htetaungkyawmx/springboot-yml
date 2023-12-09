@@ -1,0 +1,17 @@
+app:
+  name: spring-boot-app
+  description: Example Spring Boot YML
+
+  servers:
+    -server1
+    -server2
+    -server3
+
+  enviroments:
+    dev:
+      name: Development Enviroment
+      url: https://dev.example.com
+
+    prod:
+      name: prod Enviroment
+      url: https://prod.example.com
